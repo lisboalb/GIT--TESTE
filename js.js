@@ -18,3 +18,19 @@ document.write(`Resultados ${numeros}`)
  }
 
  console.log(45,10)
+
+
+
+ const Numero01 = parseFloat(prompt("Digite o primeiro número"))
+ const Numero02 = parseFloat(prompt("Digite o segundo número"))
+ const Numero03 = parseFloat(prompt("Digite o terceiro número"))
+ 
+
+const soma = (Numero01+ Numero02 + Numero03)
+
+const media =  soma / 3
+
+document.write(soma)
+
+document.write(media)
+
